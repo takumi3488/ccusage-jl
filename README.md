@@ -1,5 +1,7 @@
 # ccusage-jl
 
+🚧 This project is currently under development.
+
 ccusage-jl is a Julia-based CLI inspired byhttps://github.com/ryoppippi/ccusage, which retrieves Claude Code usage fees.
 
 ## Usage
