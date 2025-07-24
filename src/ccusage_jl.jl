@@ -1,4 +1,4 @@
-module ccusage-jl
+module ccusage_jl
 
 """
     main()
@@ -11,7 +11,3 @@ function main()
 end
 
 end # module
-
-if abspath(PROGRAM_FILE) == @__FILE__
-    ccusage-jl.main()
-end

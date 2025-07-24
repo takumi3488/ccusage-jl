@@ -1,9 +1,11 @@
-name = "ccusage-jl"
-uuid = "$(uuidgen())"
-authors = ["Your Name <your.email@example.com>"]
+name = "ccusage_jl"
+uuid = "25b55d8c-669d-13b6-ce54-a2b84245fa75"
+authors = ["Takumi Mori"]
 version = "0.1.0"
 
 [deps]
+JuliaFormatter = "98e50ef6-434e-11e9-1051-2b60c6c9e899"
 
 [compat]
+JuliaFormatter = "2.1.2"
 julia = "1.11"

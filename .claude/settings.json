@@ -4,7 +4,7 @@
       {
         "hooks": [
           {
-            "command": "julia --project=. -e 'using Pkg; Pkg.test()'",
+            "command": "julia --project=. -e 'using Pkg; Pkg.add(\"JuliaFormatter\"); using JuliaFormatter; JuliaFormatter.format(\".\")'",
             "type": "command"
           }
         ],
