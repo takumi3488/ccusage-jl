@@ -1,0 +1,9 @@
+name = "ccusage-jl"
+uuid = "$(uuidgen())"
+authors = ["Your Name <your.email@example.com>"]
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1.11"

@@ -1,0 +1,17 @@
+name: 'Test'
+description: 'Test Julia project'
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Julia
+      uses: julia-actions/setup-julia@v2
+      with:
+        version: '1.11'
+    
+    - name: Install dependencies
+      shell: bash
+      run: julia --project=. -e 'using Pkg; Pkg.instantiate()'
+    
+    - name: Run tests
+      shell: bash
+      run: julia --project=. -e 'using Pkg; Pkg.test()'
